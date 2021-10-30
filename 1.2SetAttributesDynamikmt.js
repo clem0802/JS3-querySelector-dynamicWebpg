@@ -265,7 +265,6 @@ function changeQuestionType() {
 
 /*----------------------------------*/
 /*----------------------------------*/
-//! GREECE PHOTO
 // after running the code, will this webpage be linked to a stylesheet?
 // yes, we are dynamically setting the stylesheet with JavaScriopt code
 
