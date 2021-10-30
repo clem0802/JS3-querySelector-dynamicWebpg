@@ -114,7 +114,7 @@ function changeAttribute() {
 
 /*----------------------------------*/
 /*----------------------------------*/
-//! VERU HARD
+//! VERY HARD
 // use attributes to change how elements work and behanve on a webpage
 // change the "input" element's "type" ATTRIBUTE to "checkbox"
 
