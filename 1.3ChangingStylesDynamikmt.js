@@ -111,8 +111,6 @@ button, img, p {
     margin: 10px 0 0 0;
 }
 
-
-
 //?** (JavaScript)
 function addStyleSheet() {
     var el = document.querySelector("img");
