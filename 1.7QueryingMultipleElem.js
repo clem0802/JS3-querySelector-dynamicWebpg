@@ -1,4 +1,4 @@
-// 2021.10.30 FROM (MiMO) 
+// 2021.10.30 FROM (MM) 
 /*----------------------------------*/
 // QUERYING MULTIPLE ELEMENTS
 
