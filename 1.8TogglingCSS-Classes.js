@@ -1,4 +1,4 @@
-// 2021.10.31 FROM (MIMO) 
+// 2021.10.31 FROM (MM) 
 /*----------------------------------*/
 // TOGGLING CSS CLASSES
 // setAttribute() overrides the element's classes 
