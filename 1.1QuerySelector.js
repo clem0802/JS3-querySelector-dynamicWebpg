@@ -1,4 +1,4 @@
-// 2021.10.29 FROM (MIMO) 
+// 2021.10.29 FROM (MM) 
 /*----------------------------------*/
 // QUERY SELECTORS
 // how to access and change SPECIFIC elements on a webpage
