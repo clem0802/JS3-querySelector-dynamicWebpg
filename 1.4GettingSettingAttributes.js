@@ -1,4 +1,4 @@
-// 2021.10.30 FROM (MIMO) 
+// 2021.10.30 FROM (MM) 
 /*----------------------------------*/
 // GETTING SETTING ATTRIBUTES
 // use JavaScript METHODS to change HTML attributes, like the links to an image for example
