@@ -1,4 +1,4 @@
-// 2021.10.30 FROM (MIMO) 
+// 2021.10.30 FROM (MM) 
 /*----------------------------------*/
 // CHANGING STYLDES DYNAMICALLY
 
