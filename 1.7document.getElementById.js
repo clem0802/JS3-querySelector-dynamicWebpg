@@ -1,5 +1,6 @@
 // 2021.11.26 FROM (MM) 
 /*----------------------------------*/
+INTERACTING WITH WEBPAGES
 // document.getElementById()
 // .innerHTML
 
