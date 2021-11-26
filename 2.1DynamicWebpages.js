@@ -81,9 +81,9 @@ document.getElementById().innerHTML  => this instruction retrieves only the text
          <li>project: 150$</li>
        </ul>
      <script>
-         document.getElementById("hour") //to access the first list element
-         document.getElementById("hour").innerHTML //to ACCESS the first list element's TEXT
-         document.getElementById("hour").innerHTML = "hour:50$"; //to UPDATE the first list element's TEXT
+         document.getElementById("hour") // to access the first list element
+         document.getElementById("hour").innerHTML // to ACCESS the first list element's TEXT
+         document.getElementById("hour").innerHTML = "hour:50$"; // to UPDATE the first list element's TEXT
      </script>
   </body>
 </html>
