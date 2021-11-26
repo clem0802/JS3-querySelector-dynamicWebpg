@@ -1,6 +1,6 @@
 // 2021.11.26 FROM (MM) 
 /*----------------------------------*/
-INTERACTING WITH WEBPAGES
+DYNAMIC WEBPAGES (exos)
 // document.getElementById()
 // .innerHTML
 
