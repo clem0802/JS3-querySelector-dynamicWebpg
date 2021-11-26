@@ -37,8 +37,22 @@ DYNAMIC WEBPAGES (exos)
 // => because we'll access the parent element multiple times in the "script"
 
 
-
-
+/*----------------------------------*/
+/*----------------------------------*/
+// create a "parent" variable that STORES the "div" element
+<!doctype html>
+<html>
+    <body>
+        <div id="about">
+            <ul><strong>Things you didn't know about your goldfish</strong>
+                <li>Goldfish can see more colors than humans can</li>
+            </ul>
+        </div>
+        <script>
+            var parent = document.getElementById("about"); // (this line is the answer)
+        </script>
+    </body>
+</html>
 
 
 
