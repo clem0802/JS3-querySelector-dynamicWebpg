@@ -6,8 +6,8 @@ DYNAMIC WEBPAGES (exos)
 
 
 /*----------------------------------*/
-/*----------------------------------*/
-.appendChild() => it adds the element between parentheses inside theo parent element
+/*----------------------------------*/ (EXO)
+.appendChild() => it ADDs the element between parentheses inside the parent element
 // below, ADD the heading inside the body element
 
 <!doctype html>
@@ -17,6 +17,25 @@ DYNAMIC WEBPAGES (exos)
             var bodyElement = document.getElementById("parent");
             var heading = document.createElement("h1");
             bodyElement.appendChild(heading); //! (add this line)
+        </script>
+    </body>
+</html>
+
+
+/*----------------------------------*/
+/*----------------------------------*/ (EXO)
+.appendChild() => it ADDs the element between parentheses inside the parent element
+// below, inside the "script", ADD the new "li" element inside the "ol" element
+
+<!doctype html>
+<html>
+    <body>
+        <ol id="list">Bestselling Books</ol>
+        <script>
+            var list = document.getelementById("list");
+            var book = document.createElement("li");
+            book.innerHTML = "Sapiens";
+            list.appendChild(book); // this code => CORRECT ANSWER
         </script>
     </body>
 </html>
