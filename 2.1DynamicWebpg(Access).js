@@ -59,7 +59,7 @@ document.getElementById().innerHTML  => this instruction retrieves only the text
   <body>
      <h2 id="tours">Tokyo Tours</h2>
      <script>
-       cdocument.getElementById("tours").innerHTML = "Paris Tours"; 
+       document.getElementById("tours").innerHTML = "Paris Tours"; 
        // this changes the h2's owner name
      </script>
   </body>
