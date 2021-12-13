@@ -2,7 +2,7 @@
 /*----------------------------------*/
 /*----------------------------------*/
 DYNAMIC WEBPAGES (exos)
-// to RINCLUDE elements
+// to INCLUDE elements
 
 
 -how can we access a webpage from an included script?
