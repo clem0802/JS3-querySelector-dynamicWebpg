@@ -127,7 +127,7 @@ function displayItems() {
 // querySelectorAll()
 // this METHOD lets us do more advance searches
 //! like ACCESSING ELEMENTS of two different CLASSES at the same time
-// here, LOOK FOR elements of EITHER // CLASS "movie" or "tech"
+// here, LOOK FOR elements of EITHER // CLASS "movie" OR "tech"
 
 // (HTML)
 <!doctype html>
@@ -144,7 +144,7 @@ function displayItems() {
 
 // (JavaScript)
 function displayItems() {
-    var el = document.querySelectorAll(".movie.tech"); //! ATTENTION  (.MOVIE.TECH)
+    var el = document.querySelectorAll(".movie, .tech");  //!  (.MOVIE, .TECH)
     console.log(el.length); 
 }
 // the webpage displays the three movie headings
@@ -160,7 +160,7 @@ function displayItems() {
 // to get elements that belong to two different CLASSES
 // just ADD one CLASS after the other separated by a comma (,)
 // need to ADD a period (.) before the CLASS name
-//! (.MOVIE, .TECH) => CLASS-CLASS
+//! (.MOVIE .TECH) => CLASS-CLASS // CLASS "movie" AND "tech"
 
 // (HTML)
 <!doctype html>
@@ -177,7 +177,7 @@ function displayItems() {
 
 // (JavaScript)
 function displayItems() {
-    var el = document.querySelectorAll(".movie, .tech"); //! (.MOVIE, .TECH) => COMMA
+    var el = document.querySelectorAll(".movie .tech"); //! (.MOVIE .TECH) => COMMA
     console.log(el.length); 
 }
 // the webpage displays the three movie headings
