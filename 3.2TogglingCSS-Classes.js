@@ -11,7 +11,7 @@
 // if we use it to change a CLASS, it OVERRIDES the previous CLASS
 // in (2), will see the better way to add and remove CLASSES, with the PROPERTY //! classList
 
-//?? (HTML)------------------
+// (HTML)------------------
 <!doctype html>
 <html>
     <head>
@@ -26,7 +26,7 @@
     </body>
 </html>
 
-//?? (CSS)------------------
+// (CSS)------------------
 body {
     text-align: center;
 }
@@ -47,7 +47,7 @@ button {
     font-weight: bold;
 }
 
-//?? (JavaScript)------------------
+// (JavaScript)------------------
 function turnBold() {
     var el = document.querySelector("p");
     el.setAttribute("class", "bold"); 
@@ -64,10 +64,7 @@ function turnItalic() {
 /*----------------------------------*/
 /*----------------------------------*/ (2)
 //! .classList.add()
-// to add a new CLASS without overriding the previous one, we add first "classList" PROPERTY
-// then use it to ACCESS the add() METHOD
-
-//?? (HTML)------------------
+// (HTML)------------------
 <!doctype html>
 <html>
     <head>
@@ -81,7 +78,7 @@ function turnItalic() {
     </body>
 </html>
 
-//?? (CSS)------------------
+// (CSS)------------------
 .italic {
     font-style: italic;
 }
@@ -100,7 +97,9 @@ button {
     color: #4D4D87;
 }
 
-//?? (JavaScript)------------------
+// to add a new CLASS without overriding the previous one, we add first "classList" PROPERTY
+// then use it to ACCESS the add() METHOD
+// (JavaScript)------------------
 function addBold() {
     var el = document.querySelector("p");
     el.classList.add();
@@ -113,10 +112,7 @@ function addBold() {
 /*----------------------------------*/
 /*----------------------------------*/ (3)
 //! .classList.add()
-// inside the add() METHOD we code the CLASS we want to add to the element
-// code "bold" to add the CLASS once we CALL the FUNCTION
-
-//?? (HTML)------------------
+// (HTML)------------------
 <!doctype html>
 <html>
     <head>
@@ -130,10 +126,12 @@ function addBold() {
     </body>
 </html>
 
-//?? (CSS)------------------
+// (CSS)------------------
 (IDEM)
 
-//?? (JavaScript)------------------
+// inside the add() METHOD we code the CLASS we want to add to the element
+// code "bold" to add the CLASS once we CALL the FUNCTION
+// (JavaScript)------------------
 function addBold() { //!
     var el = document.querySelector("p");
     el.classList.add("bold"); //!
@@ -146,10 +144,7 @@ function addBold() { //!
 /*----------------------------------*/
 /*----------------------------------*/ (4)
 //! .classList.remove()
-// CLASSES can be REMOVED from an element as well
-// to remove a CLASS, code the remove() METHOD
-
-//?? (HTML)------------------
+// (HTML)------------------
 <!doctype html>
 <html>
     <head>
@@ -163,10 +158,12 @@ function addBold() { //!
     </body>
 </html>
 
-//?? (CSS)------------------
+// (CSS)------------------
 (IDEM)
 
-//?? (JavaScript)------------------
+// CLASSES can be REMOVED from an element as well
+// to remove a CLASS, code the remove() METHOD
+// (JavaScript)------------------
 function removeBold() { //!
     var el = document.querySelector("p");
     el.classList.remove("bold"); //! 
@@ -179,10 +176,7 @@ function removeBold() { //!
 /*----------------------------------*/
 /*----------------------------------*/ (5)
 //! .classList.toggle()
-// if want to automaticallys ADD or REMOVE a CLASS when CALL the FUNCTION
-// use toggle() METHOD
-
-//?? (HTML)------------------
+// (HTML)------------------
 <!doctype html>
 <html>
     <head>
@@ -196,10 +190,12 @@ function removeBold() { //!
     </body>
 </html>
 
-//?? (CSS)------------------
+// (CSS)------------------
 (IDEM)
 
-//?? (JavaScript)------------------
+// if want to automatically ADD or REMOVE a CLASS when CALL the FUNCTION
+// use toggle() METHOD
+// (JavaScript)------------------
 function toggleBold() { //!
     var el = document.querySelector("p");
     el.classList.toggle("bold"); //! 
@@ -214,10 +210,7 @@ function toggleBold() { //!
 /*----------------------------------*/ (6)
 //! ADD some new CLASSES   or
 //! REMOVE some new CLASSES
-// if want to automaticallys ADD or REMOVE a CLASS when CALL the FUNCTION
-// use toggle() METHOD
-
-//?? (HTML)------------------
+// (HTML)------------------
 <!doctype html>
 <html>
     <head>
@@ -231,7 +224,7 @@ function toggleBold() { //!
     </body>
 </html>
 
-//?? (CSS)------------------
+// (CSS)------------------
 .italic {
     font-style: italic;
 }
@@ -256,8 +249,12 @@ button {
     color: #4D4D87;
 }
 
-//?? (JavaScript)------------------
+// if want to automatically ADD or REMOVE a CLASS when CALL the FUNCTION
+// use toggle() METHOD
+// (JavaScript)------------------
 function addClasses() { //!
     var el = document.querySelector("p");
     el.classList.add("highight", "underine"); //! 
 }
+
+
