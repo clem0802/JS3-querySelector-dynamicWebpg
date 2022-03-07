@@ -8,7 +8,7 @@
 /*----------------------------------*/
 //! before changing the attribute, use the "querySelector" to store the "img" element inside the "el" VARIABLE 
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -19,9 +19,9 @@
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function displayAttribute() {
-    var el = document.querySelector("img"); //! 
+    var el = document.querySelector("img"); //
 }
 
 
@@ -31,9 +31,9 @@ function displayAttribute() {
 /*----------------------------------*/
 /*----------------------------------*/
 // we want to access the "img" element's "src" ATTRIBUTE and store it 
-// now store it in a //! new VARIABLE called "imageLink"
+// now store it in a // new VARIABLE called "imageLink"
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -44,10 +44,10 @@ function displayAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function displayAttribute() {
     var el = document.querySelector("img"); 
-    var imageLink = ; //!  var imageLink = ;
+    var imageLink = ; //! 
 }
 
 
@@ -60,7 +60,7 @@ function displayAttribute() {
 // this works with any ATTRIBUTES, like "href" from "a" ELEMENTS
 // to get an attribute's value we use the "getAttribute()" METHOD
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -71,10 +71,10 @@ function displayAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function displayAttribute() {
     var el = document.querySelector("img"); 
-    var imageLink = el.getAttribute(); //!  getAttribute()
+    var imageLink = el.getAttribute(); //  
 }
 
 
@@ -85,7 +85,7 @@ function displayAttribute() {
 // inside the parentheses, specify which ATTRIBUTE value we want 
 // here we code "src" inside quotes to get the image link
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -96,10 +96,10 @@ function displayAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function displayAttribute() {
     var el = document.querySelector("img"); 
-    var imageLink = el.getAttribute("src"); //!  "src"
+    var imageLink = el.getAttribute("src"); //
 }
 
 
@@ -110,7 +110,7 @@ function displayAttribute() {
 /*----------------------------------*/
 // checout the output
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -121,11 +121,11 @@ function displayAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function displayAttribute() {
     var el = document.querySelector("img"); 
     var imageLink = el.getAttribute("src"); 
-    console.log(imageLink); //! console.log()
+    console.log(imageLink); //! 
 }
 
 
@@ -139,7 +139,7 @@ function displayAttribute() {
 // to get an attribute's value we use the "getAttribute()" METHOD
 // 1st EXO
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -150,10 +150,10 @@ function displayAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function displayAttribute() {
-    var el = document.querySelector("a"); 
-    var link = el.getAttribute("href");
+    var el = document.querySelector("a"); //
+    var link = el.getAttribute("href"); //
     console.log(link);
 }
 
@@ -168,7 +168,7 @@ function displayAttribute() {
 // like multiple "style" ones for example
 // 2nd EXO
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -179,7 +179,7 @@ function displayAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function displayAttribute() {
     var el = document.querySelector("a"); 
     var imageStyle = el.getAttribute("style");
@@ -197,7 +197,7 @@ function displayAttribute() {
 // what does this code display in the console? 
 //! https://mimo.app/r/backpack.pn    // WITHOUT DOUBLE QUOTES
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -208,7 +208,7 @@ function displayAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeImage() {
     var el = document.querySelector("img"); 
     var imageLink = el.getAttribute("src");
@@ -225,7 +225,7 @@ function changeImage() {
 /*----------------------------------*/
 // store the attribute VALUES in the correct VARIABLES
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -236,7 +236,7 @@ function changeImage() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function showAttribute() {
     var el = document.querySelector("a"); //! 
     var imageStyle = el.getAttribute("style"); //! 
@@ -247,12 +247,11 @@ function showAttribute() {
 
 
 
-
 /*----------------------------------*/
 /*----------------------------------*/
 // display the "a" ELEMENT's "style" ATTRIBUTE
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -263,7 +262,7 @@ function showAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function showAttribute() {
     var el = document.querySelector("a"); //! 
     var link = el.getAttribute("style"); //! 
