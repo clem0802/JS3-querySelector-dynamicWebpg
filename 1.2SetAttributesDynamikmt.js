@@ -7,9 +7,7 @@
 /*----------------------------------*/
 // AN IMAGE (we can see the image directly)
 // once have accessed an element with JavaScript, we can get its attributes by adding a (.) followed by the attribute nmae
-// after we have stored an "img" element inside the "el" VARIABLE, we write "el.src" to get the attribute value
-
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -20,7 +18,8 @@
     </body>
 </html>
 
-//?** (JavaScript)
+// after we have stored an "img" element inside the "el" VARIABLE, we write "el.src" to get the attribute value
+// (JavaScript)
 function showAttribute() {
     var el = document.querySelector("img"); //! 
     console.log(el.src); //!
@@ -36,7 +35,7 @@ function showAttribute() {
 // most attrivutes can be accessed this way
 // access and display the "href" attribute of the "a" element
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -47,7 +46,7 @@ function showAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function showAttribute() {
     var el = document.querySelector("a"); //! 
     console.log(el.href); //!
@@ -65,7 +64,7 @@ function showAttribute() {
 // when doing so, we have to remember to place values in between quotes
 // update the "src" attribute
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -76,10 +75,10 @@ function showAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeAttribute() {
     var el = document.querySelector("img"); 
-    el.src = "https://mimo.app/r/cat.png"; //! 
+    el.src = "https://mimo.app/r/cat.png"; //
 }
 // a button + a cat photo, are displayed
 
@@ -241,7 +240,7 @@ function showAttribute() {
 // what "type" value will the "input" element have at the end? 
 //! "email"  (as answer), and NOT "checkbox"
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -252,7 +251,7 @@ function showAttribute() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeQuestionType() {
     var el = document.querySelector("input");
     el.type = "checkbox";
@@ -268,11 +267,11 @@ function changeQuestionType() {
 // after running the code, will this webpage be linked to a stylesheet?
 // yes, we are dynamically setting the stylesheet with JavaScriopt code
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" href=""> //! 
+        <link rel="stylesheet" href=""> // (has to update here later in JS)
     </head>
     <body> 
         <h3>Greek Holiday package</h3>
@@ -281,7 +280,7 @@ function changeQuestionType() {
     </body>
 </html>
 
-//?** (CSS)
+// (CSS)
 img {
     padding: 15px;
     background-color: aliceBlue;
@@ -295,9 +294,9 @@ body {
     text-align: center;
 }
 
-//?** (JavaScript)
+// (JavaScript)
 var el = document.querySelector("link");
-el.href = "style.css"; //! 
+el.href = "style.css"; //
 
 
 
@@ -310,7 +309,7 @@ el.href = "style.css"; //!
 // use JavaScript to set the "input" element's "type"  and "placeholder" ATTRIBUTES
 // yes,
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -320,7 +319,7 @@ el.href = "style.css"; //!
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 var el = document.querySelector("input");
 el.type = "password";  //! 
 el.placeholder = "1234";  //! 
@@ -335,7 +334,7 @@ el.placeholder = "1234";  //!
 // after running the code, will this webpage be linked to a stylesheet?
 // yes, we are dynamically setting the stylesheet with JavaScriopt code
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <head>
@@ -354,7 +353,7 @@ el.placeholder = "1234";  //!
     </body>
 </html>
 
-//?** (CSS)
+// (CSS)
 .container {
     background-color: #edc9b5;
     display: flex;
@@ -368,7 +367,7 @@ el.placeholder = "1234";  //!
     text-align: center;
 }
 
-//?** (JavaScript)
+// (JavaScript)
 function addFlexbox() {
     var el = document.querySelector("link");
     el.href = "style.css";
