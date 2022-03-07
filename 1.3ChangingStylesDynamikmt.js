@@ -9,7 +9,7 @@
 // to access an element's styling, first need to add the "style" ATTRIBUTE, (.STYLE)
 // then specify the exact style we want, like (.COLOR)
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -19,10 +19,10 @@
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function showColor() {
     var el = document.querySelector("p"); 
-    console.log(el.style.color); //!
+    console.log(el.style.color); //
 }
 
 
@@ -33,7 +33,7 @@ function showColor() {
 /*----------------------------------*/
 // if we want to change an element's style, we have to make sure we put the value in between quotes
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body>  
@@ -43,7 +43,7 @@ function showColor() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeColor() {
     var el = document.querySelector("p"); 
     el.style.color = "#d7465f"
@@ -55,12 +55,12 @@ function changeColor() {
 
 /*----------------------------------*/
 /*----------------------------------*/
-//! camelCase
+// camelCase
 // when having PROPERTITES with multiple words like "background-color"
 // need to turn them into "camelCase"
 // here use "backgroundColor"
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body>  
@@ -70,7 +70,7 @@ function changeColor() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeColor() {
     var el = document.querySelector("p"); 
     el.style.backgroundColor = "#d7465f"
@@ -83,11 +83,10 @@ function changeColor() {
 
 /*----------------------------------*/
 /*----------------------------------*/
-//! VERY HARD
 // changing the style with JavaScript works no matter if the previous style was set inline or through a stylesheet
 // so, NOT MATTER WHERE THE STYLE WAS SET
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <head>
@@ -101,7 +100,7 @@ function changeColor() {
     </body>
 </html>
 
-//?** (CSS)
+// (CSS)
 img {
     background-color: aliceBlue;
     border-radius: 10px;
@@ -126,7 +125,7 @@ function addStyleSheet() {
 /*----------------------------------*/
 // access and display the "p" element's background color
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body>  
@@ -136,7 +135,7 @@ function addStyleSheet() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeColor() {
     var el = document.querySelector("p"); 
     console.log(el.style.backgroundColor);
@@ -151,7 +150,7 @@ function changeColor() {
 /*----------------------------------*/
 // change the "display" value of the first "a" element to "block"
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body>  
@@ -163,7 +162,7 @@ function changeColor() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeLayout() {
     var el = document.querySelector("a"); 
     el.style.display = "block"; //!
@@ -179,7 +178,7 @@ function changeLayout() {
 /*----------------------------------*/
 // add the correct PROPERTITES to change the "background-color" and "border-radius" styles
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body>  
@@ -189,7 +188,7 @@ function changeLayout() {
     </body>
 </html>
 
-//?** (JavaScript)
+// (JavaScript)
 function changeStyles() {
     var el = document.querySelector("p"); 
     el.style.backgroundColor = "aliceBlue";
@@ -207,7 +206,7 @@ function changeStyles() {
 // changing the style with JavaScript works no matter if the previous style was set inline or through a stylesheet
 // so, NOT MATTER WHERE THE STYLE WAS SET
 
-//?** (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <head>
@@ -221,7 +220,7 @@ function changeStyles() {
     </body>
 </html>
 
-//?** (CSS)
+// (CSS)
 img {
     background-color: aliceBlue;
     border-radius: 10px;
