@@ -238,9 +238,9 @@ function changeImage() {
 
 // (JavaScript)
 function showAttribute() {
-    var el = document.querySelector("a"); //! 
-    var imageStyle = el.getAttribute("style"); //! 
-    var imageLink = el.getAttribute("href"); //! 
+    var el = document.querySelector("a"); //
+    var imageStyle = el.getAttribute("style"); //
+    var imageLink = el.getAttribute("href"); //
     console.log(imageStyle + " " + imageLink);
 } 
 
@@ -264,7 +264,7 @@ function showAttribute() {
 
 // (JavaScript)
 function showAttribute() {
-    var el = document.querySelector("a"); //! 
-    var link = el.getAttribute("style"); //! 
+    var el = document.querySelector("a"); //
+    var link = el.getAttribute("style"); //
     console.log(link);
 } 
