@@ -9,7 +9,7 @@
 //! img ELEMENT stored inside the "el" VARIABLE
 // to set an ATTRIBUTE, use the  setAttribute() METHOD after the VARIABLE name
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -20,7 +20,7 @@
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function changeImage() {
     var el = document.querySelector("img"); //! img ELEMENT stored inside the "el" VARIABLE
     el.setAttribute();
@@ -34,7 +34,7 @@ function changeImage() {
 /*----------------------------------*/
 // inside the parentheses, need to specify which ATTRIBUTE we want to set, like "src" in this case
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -45,7 +45,7 @@ function changeImage() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function changeImage() {
     var el = document.querySelector("img"); 
     el.setAttribute("src"); //! we want to set "SRC"
@@ -58,10 +58,10 @@ function changeImage() {
 /*----------------------------------*/
 /*----------------------------------*/
 // next, we provide the NEW VALUE for "SRC"
-// we add the NEW VALUE after a COMMA and inside QUOTES
-// press the button to change the LINK
+// we add the NEW VALUE after a "COMMA" and inside QUOTES
+// now ress the button to change the LINK
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -72,7 +72,7 @@ function changeImage() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function changeImage() {
     var el = document.querySelector("img"); 
     el.setAttribute("src","https://mimo.app/r/kittles.png"); //! CHANGE THE LINK
@@ -88,7 +88,7 @@ function changeImage() {
 //! display el.getAttribute("src")
 // to see that the WEB ADDRESS actually changed
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -99,7 +99,7 @@ function changeImage() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function changeImage() {
     var el = document.querySelector("img"); 
     el.setAttribute("src","https://mimo.app/r/kittles.png"); //! (SEE BELOW)
@@ -107,6 +107,7 @@ function changeImage() {
 }
 //! we SPECIFY inside the parentheses of  setAttribute()
 //! BOTH the ATTRIBUTE we want to change and the NEW VALUE
+// el.setAttribute doesn't need to be stored in a variable
 
 
 
@@ -116,7 +117,7 @@ function changeImage() {
 /*----------------------------------*/
 //! change the "type" fot eh "input" element to "range"
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -127,13 +128,13 @@ function changeImage() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function changeType() {
     var el = document.querySelector("input"); 
     el.setAttribute("type","range"); 
 }
-// (output) first there is a calendar
-// (output) when click on "Try it", the calender changed to a RANGE BAR
+// (output) first there is a CALENDAR (date)
+// (output) when click on "Try it", the calender changed to a RANGE BAR (range)
 
 
 
@@ -143,7 +144,7 @@ function changeType() {
 /*----------------------------------*/
 // add a PLACEHOLER element and set its value to "1234"
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -154,7 +155,7 @@ function changeType() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function updateElement() {
     var el = document.querySelector("input"); 
     el.setAttribute("placeholder","1234"); 
