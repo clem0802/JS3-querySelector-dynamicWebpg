@@ -7,7 +7,7 @@
 /*----------------------------------*/
 // so far retrieve multiple elements if they had the same TAG or CLASS name
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -19,10 +19,10 @@
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.querySelector("h3"); 
-    console.log(el[0].innerHTML); //!
+    console.log(el[0].innerHTML); //
 }
 // the webpage displays the 3 <h3> content
 // when click on the button, => Breaking News //!
@@ -36,7 +36,7 @@ function displayItem() {
 //! querySelectorAll() METHOD
 // METHODE above is another more powerful way of getting ARRAY-like lists of elements
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -48,7 +48,7 @@ function displayItem() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.querySelectorAll("h3"); //!
     console.log(el[2].innerHTML); //!
@@ -65,7 +65,7 @@ function displayItem() {
 //! querySelectorAll()
 // it works for both TAG and CLASS names
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -79,7 +79,7 @@ function displayItem() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll(".urgent"); //!
     console.log(el.length); 
@@ -97,7 +97,7 @@ function displayItems() {
 //! (TAG.CLASS)
 // can also be used to LOOK FOR specific elements, like "h3" element of CLASS "news"
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -110,7 +110,7 @@ function displayItems() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll("h3.news"); //! ATTENTION  (TAG.CLASS)
     console.log(el.length); 
@@ -129,7 +129,7 @@ function displayItems() {
 //! like ACCESSING ELEMENTS of two different CLASSES at the same time
 // here, LOOK FOR elements of EITHER // CLASS "movie" or "tech"
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -142,7 +142,7 @@ function displayItems() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll(".movie.tech"); //! ATTENTION  (.MOVIE.TECH)
     console.log(el.length); 
@@ -162,7 +162,7 @@ function displayItems() {
 // need to ADD a period (.) before the CLASS name
 //! (.MOVIE, .TECH) => CLASS-CLASS
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -175,7 +175,7 @@ function displayItems() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll(".movie, .tech"); //! (.MOVIE, .TECH) => COMMA
     console.log(el.length); 
@@ -195,7 +195,7 @@ function displayItems() {
 // ADD the "button" TAG name to retrieve it also
 // and display its text in the console
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -203,7 +203,7 @@ function displayItems() {
         <h3 class="sports">The Next Olympic Sport?</h3>
         <h3 class="tech">The New Y-Phone</h3>(.MOVIE, .TECH, BUTTON) 
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll(".movie, .tech, button"); //! (.MOVIE, .TECH, BUTTON) 
     console.log(el[2].length); 
@@ -220,7 +220,7 @@ function displayItems() {
 // querySelectorAll()
 // see result
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -232,7 +232,7 @@ function displayItems() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.querySelectorAll("h3");
     console.log(el[2].innerHTML); 
@@ -253,7 +253,7 @@ function displayItem() {
 // code  (.SPORTS.NEWS)
 // so here, only 1 ELEMENT matches with this condition 
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -266,7 +266,7 @@ function displayItem() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll(".sports.news"); //! 
     console.log(el[0].innerHTML); //! to retrieve the CONTENT
@@ -286,7 +286,7 @@ function displayItems() {
 // code  (.SPORTS, .TECH)
 // so here, 2 ELEMENTs match with this condition  .sports, .tech
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -299,7 +299,7 @@ function displayItems() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll(".sports, .tech"); //! 
     console.log(el.innerHTML); 
@@ -316,7 +316,7 @@ function displayItems() {
 // querySelectorAll()
 // code the "img" TAG name to retrieve it as the last element
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -332,7 +332,7 @@ function displayItems() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItems() {
     var el = document.querySelectorAll(".movie, .sports, img"); //! 
     console.log(el[2].src); //!
