@@ -8,7 +8,7 @@
 //! getElementById()  METHOD
 //! querySelector()  METHOD
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -22,9 +22,9 @@
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
-    var el = document.querySelector("li"); 
+    var el = document.querySelector("li"); // querySelector
     console.log(el.innerHTML);
 }
 
@@ -39,7 +39,7 @@ function displayItem() {
 // we can get a COLLECTION of elements of the same TAG TYPE with 
 //! getElementByTagName()  METHOD
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -53,12 +53,11 @@ function displayItem() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.getElementsByTagName("li"); //!
     console.log(el);
 }
-// (output)    [object HTMLCollection]
 
 
 
@@ -73,7 +72,7 @@ function displayItem() {
 // display the first element's HTML content  //!  console.log(el[0].innerHTML);
 
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -87,7 +86,7 @@ function displayItem() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.getElementsByTagName("li"); 
     console.log(el[0].innerHTML); //!
@@ -102,9 +101,9 @@ function displayItem() {
 
 /*----------------------------------*/
 /*----------------------------------*/
-// just like ARRAYS, we can also access the LENGTH PROPERTY of the COLLECTION
+// just like ARRAYS, we can also access the "LENGTH" PROPERTY of the COLLECTION
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -118,7 +117,7 @@ function displayItem() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayLength() {
     var el = document.getElementsByTagName("li"); 
     console.log(el.length); //!
@@ -133,10 +132,10 @@ function displayLength() {
 /*----------------------------------*/
 /*----------------------------------*/
 // if want to return a COLLECTIO ?that contains specific elements of a CLASS
-// use the  getElementsByClassName()
+// we use the  getElementsByClassName()  methode
 // press the button to display how many elements of CLASS "urgent" there are
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -150,7 +149,7 @@ function displayLength() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.getElementsByClassName("urgent"); //!
     console.log("You have " + el.length + "urgent tasks"); //!
@@ -170,7 +169,7 @@ function displayItem() {
 // press the button to display how many elements of CLASS "urgent" there are
 // display the FRIST "urgent" task
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -184,7 +183,7 @@ function displayItem() {
     </body>
 </html>
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.getElementsByClassName("urgent"); 
     console.log(el[0].innerHTML); //!
@@ -202,7 +201,7 @@ function displayItem() {
 // just add the CLASSES with a SPACE IN BETWEEN
 // urgent important
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -216,7 +215,7 @@ function displayItem() {
     </body>
 </html> 
 
-//?? (JavaScript)
+// (JavaScript)
 function displayItem() {
     var el = document.getElementsByClassName("urgent important"); 
     console.log(el.length); //!
@@ -233,7 +232,7 @@ function displayItem() {
 // what does this code do? 
 // changes the first heading of CLASS "adventure" //! => Dawn of Justice
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -248,7 +247,7 @@ function displayItem() {
     </body>
 </html> 
 
-//?? (JavaScript)
+// (JavaScript)
 function updateHeadings() {
     var el = document.getElementsByClassName("adventure"); 
     el[0].innerHTML = "Dawn of Justice"; //!   ATTENTION !!!!
@@ -264,7 +263,7 @@ function updateHeadings() {
 /*----------------------------------*/
 // code EL.LENGTH to display the number of "h4" headings on the page
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -279,7 +278,7 @@ function updateHeadings() {
     </body>
 </html> 
 
-//?? (JavaScript)
+// (JavaScript)
 function updateHeadings() {
     var el = document.getElementsByClassName("h4"); //! A VOIR .....
     console.log(el.length);
@@ -295,7 +294,7 @@ function updateHeadings() {
 /*----------------------------------*/
 // code the correct CLASS to change the last "h4" element
 
-//?? (HTML)
+// (HTML)
 <!doctype html>
 <html>
     <body> 
@@ -310,7 +309,7 @@ function updateHeadings() {
     </body>
 </html> 
 
-//?? (JavaScript)
+// (JavaScript)
 function updateHeadings() {
     var el = document.getElementsByClassName("adventure comedy"); 
     el[0].innerHTML = "Dumb and Dumber";
